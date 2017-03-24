@@ -1529,11 +1529,11 @@ form label {
   margin-left: 3px;
 }
 #gtco-features-3 .feature.feature-1 {
-  z-index: 7;
+  /*z-index: 7;*/
 }
 #gtco-features-3 .feature.feature-2 {
   bottom: 0px;
-  z-index: 10;
+  /*z-index: 10;*/
   -webkit-box-shadow: 0px 0 30px 10px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 0 30px 10px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0 30px 10px rgba(0, 0, 0, 0.25);
@@ -1590,7 +1590,7 @@ form label {
   }
 }
 #gtco-features-3 .feature.feature-3 {
-  z-index: 7;
+ /* z-index: 7; */
   background: #129377;
 }
 #gtco-features-3 .feature.feature-3 .icon {
@@ -2342,3 +2342,52 @@ p.pac-info{
     line-height: 19px;
 }
 
+
+.fixed_header { 
+	position:fixed; 
+	z-index:1; 
+	top:0; 
+	width:100%; 
+	background-color:#000000;
+	} 
+	
+.listFigure {
+	overflow: hidden;
+	padding-bottom:10px ;
+	width: 100%;
+}
+
+.listFigure .list{
+	margin-left: 155px;
+}
+.listFigure .imgNews {
+    float: left;
+    height: 110px;
+    overflow: hidden;
+    padding-top: 4px;
+    position: relative;
+    text-align: center;
+    width: 146px;
+}
+
+.listFigure .imgNews .mas {
+    background: #000;
+    
+    opacity: 0.7!important;
+    bottom: 0;
+    height: 25px;
+    left: 0;
+    position: absolute;
+    width: 146px;
+}
+
+.listFigure .imgNews .imgTit {
+    bottom: 1px;
+    height: 25px;
+    left: 1px;
+    line-height: 25px;
+    overflow: hidden;
+    padding-top: 83px;
+    position: absolute;
+    width: 144px;
+}
