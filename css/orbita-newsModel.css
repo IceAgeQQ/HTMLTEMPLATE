@@ -1,0 +1,112 @@
+.atl-location {
+    height: 35px;
+    margin-top: 10px;
+}
+.atl-location .crumbs {
+    float: left;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.atl-location .crumbs a, .atl-location .crumbs em {
+    color: #0b59b2;
+    font-style: normal;
+}
+.atl-head .atl-title {
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 0;
+}
+.atl-head .atl-title .s_title {
+    display: inline-block;
+    padding-top:0 10px;
+    color: #fff;
+    line-height: 35px;
+    font-weight: 700;
+    background: #4178B0;
+}
+.atl-menu .atl-info {
+    display: inline-block;
+    width: auto;
+}
+.atl-info {
+    font-size: 15px;
+    display: inline-block;
+    width: auto;
+    _margin-top: 10px;
+    text-align: center;
+}
+.atl-head .atl-info {
+    display: block;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    color: #888;
+}
+.atl-main {
+    margin-bottom: 15px;
+}
+.atl-item {
+    margin-bottom: 5px;
+}
+.atl-item .atl-content {
+    position: relative;
+}
+.atl-item .atl-content .atl-con-bd {
+    background-color: #eee;
+    padding: 10px 19px;
+    font-size: 16px;
+    line-height: 28px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.atl-item .atl-content .atl-con-bd .bbs-content {
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-bottom: 10px;
+}
+.atl-item .atl-content .atl-con-hd, .atl-item .atl-content .atl-con-ft {
+    background-color: #eee;
+}
+.atl-item .atl-content .atl-con-hd-l {
+    background-position: left top;
+}
+.atl-item .atl-content .atl-con-hd-l, .atl-item .atl-content .atl-con-hd-r, .atl-item .atl-content .atl-con-ft-l, .atl-item .atl-content .atl-con-ft-r {
+    float: left;
+    width: 5px;
+    height: 5px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    background: url(http://static.tianyaui.com/global/bbs/web/static/images/bg_6_8423263.png) no-repeat 1000px 1000px;
+}
+.host-item {
+    position: relative;
+    z-index: 10;
+}
+a {
+    color: #2965b1;
+    outline: 0;
+    text-decoration: none;
+}
+.clearfix, .cf {
+    zoom: 1;
+}
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.clearfix:after, .cf:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
