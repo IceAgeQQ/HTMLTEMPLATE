@@ -70,6 +70,7 @@
 .atl-item .atl-content .atl-con-hd-l {
     background-position: left top;
 }
+
 .atl-item .atl-content .atl-con-hd-l, .atl-item .atl-content .atl-con-hd-r, .atl-item .atl-content .atl-con-ft-l, .atl-item .atl-content .atl-con-ft-r {
     float: left;
     width: 5px;

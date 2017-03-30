@@ -48,7 +48,7 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-	<link href="css/orbita-newslist.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/orbita-newslist.css">
 	</head>
 	<body>
 		
@@ -66,37 +66,24 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="index.html">Orbita <em>.</em></a></div>
+					<div id="gtco-logo"><a href="index.html">Orbita <em style="color: #ffffff;">.</em></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
 						<li><a href="index.html">首页</a></li>
 						<li><a href="about.html">关于我们</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">服务</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
+						<li class="has-dropdown active">
 							<a href="orbita-news.html">新闻动态</a>
+						</li>
+						<li class="has-dropdown">
+							<a href="orbita-satellite.html">平台卫星</a>
 							<ul class="dropdown">
-								<li><a href="#">国内新闻</a></li>
-								<li><a href="#">国际新闻</a></li>
-								<li><a href="#">公司动态</a></li>
+								<li><a href="#">珠海1号</a></li>
+								<li><a href="#">珠海2号</a></li>
 							</ul>
 						</li>
-						<li><a href="orbita-satellite.html">平台卫星</a></li>
-						<li class="has-dropdown">
-							<a href="orbita-remotesensingdata.html">遥感数据</a>
-							<ul class="dropdown">
-								<li><a href="#">数据1</a></li>
-								<li><a href="#">数据2</a></li>
-								<li><a href="#">数据3</a></li>
-							</ul>
+						<li>
+							<a href="orbita-remotesensingdata.html">遥感数据</a>	
 						</li>
 						<li><a href="orbita-solutions.html">解决方案</a></li>
 						<li class="has-dropdown">
@@ -115,7 +102,7 @@
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);height: 200px;">
+	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);height: 300px;">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -126,120 +113,66 @@
 		</div>
 	</header>
 	
-	<div class="gtco-section" style="padding-top: 10px;">
-		
-		<div class="loopblk" style="position: fixed;left:250px" >
-		<div class="lbti">
-			<h2>欧比特新闻</h2>
-			<ul class="Tabs">
-				<li id="Tab31" onmouseover="chgTab(3,1)" class="on">国内新闻</li>
-				<li id="Tab32" onmouseover="chgTab(3,2)" class>国际新闻</li>
-				<li id="Tab33" onmouseover="chgTab(3,3)" class>公司新闻</li>
-			</ul>
+	<div id="gtco-features">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-1 gtco-heading">
+					    <div class="container">
+					        <div class="table" id="myTableContent">
+					            <!--nav-pills，nav-tabs，nav-stacked :改变选项卡的样式-->
+					            <ul class="nav nav-tabs">
+					                <li class="active"><a href="#tab1" data-toggle="tab">国内新闻</a>
+					                </li>
+					                <li><a href="#tab2" data-toggle="tab">国际新闻</a>
+					                </li>
+					                <li><a href="#tab3" data-toggle="tab">公司动态</a>
+					                </li>
+					            </ul>
+					            <!-- 选项卡相对应的内容 -->
+					            <div class="tab-content" >
+					                <div class="tab-pane active list" id="tab1">
+					                	<ol>
+					                		<li><a href="orbita-newsModel.html">1111111111111</a>
+					                			<span>2017-03-28</span>
+					                		</li>
+						                	<li><a href="orbita-newsModel.html">1111111111111</a>
+						                		<span>2017-03-28</span>
+						                	</li>
+						                	<li><a href="#">1111111111111</a>
+						                		<span>2017-03-28</span>
+						                	</li>
+						                	<li><a href="#">1111111111111</a>
+						                		<span>2017-03-28</span>
+						                	</li>
+						                	
+					                	</ol>
+					                </div>
+					                <div class="tab-pane" id="tab2">
+					                	<ol>
+					                		<li><a href="orbita-newsModel.html">111111112211111</a></li>
+						                	<li>222222222222222</li>
+						                	<li>111111122111111</li>
+						                	<li>111111122111111</li>
+					                	</ol>
+					                </div>
+					                <div class="tab-pane" id="tab3">
+					                	<ol>
+					                		<li>1111113331111111</li>
+						                	<li>1111133311111111</li>
+						                	<li>1111111333111111</li>
+						                	<li>1111113331111111</li>
+					                	</ol>
+					                </div>
+					                
+					            </div>
+					        </div>
+					    </div>
+				</div>
+			</div>
 		</div>
-		<div class="Cons" id="Con31" style="display: none;" >
-			<table cellspacing="0">
-				<tbody>
-					<tr>
-						<th width="55">序号</th>
-						<th>新闻标题</th>
-						<th>时间</th>
-					</tr>
-					<tr>
-						<td>1</td>
-						<td class="ConsTi">
-							<a herf="#">广州天气预报</a>
-						</td>
-						<td>03-21 10:02</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td class="ConsTi">
-							<a herf="#">广州车展</a>
-						</td>
-						<td>03-21 10:02</td>
-					</tr>
-				</tbody>
-			</table>
-		<div class="tres"> 
-		<span class="disabled">&lt; </span>
-		<span class="current">1</span>
-		<a href="#?page=2">2</a>
-		<a href="#?page=3">3</a>
-		<a href="#?page=4">4</a>
-		<a href="#?page=5">5</a>
-		<a href="#?page=2"> 
-		&gt; </a></div> 
-		</div>
-		<div class="Cons" id="Con32" style="display: none;">
-			<table cellspacing="0">
-				<tbody>
-					<tr>
-						<th width="55">序号</th>
-						<th>新闻标题</th>
-						<th>时间</th>
-					</tr>
-					<tr>
-						<td>1</td>
-						<td class="ConsTi">
-							<a herf="#">深圳天气预报</a>
-						</td>
-						<td>03-21 10:02</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td class="ConsTi">
-							<a herf="#">深圳车展</a>
-						</td>
-						<td>03-21 10:02</td>
-					</tr>
-				</tbody>
-			</table>
-		<div class="tres"> 
-		<span class="disabled">&lt; </span>
-		<span class="current">1</span>
-		<a href="#">2</a>
-		<a href="#">3</a>
-		<a href="#">4</a>
-		<a href="#">5</a>
-		<a href="#"> 
-		&gt; </a></div> 
-		</div>
-		<div class="Cons" id="Con33" style="display: block;">
-			<table cellspacing="0">
-				<tbody>
-					<tr>
-						<th width="55">序号</th>
-						<th>新闻标题</th>
-						<th>时间</th>
-					</tr>
-					<tr>
-						<td>1</td>
-						<td class="ConsTi">
-							<a herf="#">珠海天气预报</a>
-						</td>
-						<td>03-21 10:02</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td class="ConsTi">
-							<a herf="#">珠海车展</a>
-						</td>
-						<td>03-21 10:02</td>
-					</tr>
-				</tbody>
-			</table>
-		<div class="tres"> 
-		<span class="disabled">&lt; </span>
-		<span class="current">1</span>
-		<a href="#Con33">2</a>
-		<a href="#?page=3">3</a>
-		<a href="#?page=4">4</a>
-		<a href="#?page=5">5</a>
-		<a href="#?page=2"> 
-		&gt; </a></div> 
 	</div>
-		
+	
+	</div>	
 	</div>
 	
 	

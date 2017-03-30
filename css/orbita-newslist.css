@@ -1,111 +1,42 @@
 
-body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
-body{background:#fff;color:#000; margin-top:5px;}
-td,p,li,select,input,textarea,div{font-size:12px;}
+
+td,p,li,select,input,textarea,div{font-size:15px;}
 
 ul{list-style-type:none;}
 select,input{vertical-align:middle;}
 
-a:link{color:#009;text-decoration:none;}
-a:visited{text-decoration:none;}
-a:hover,a:active,a:focus{text-decoration:underline;}
-
+/*a:link{color:#5E7AC1;text-decoration:none;}
+*/
+#myTableContent a{
+	color:grey;
+}
+#myTableContent a:hover,a:active{
+	text-decoration: underline;color:lightseagreen;
+}
+#myTableContent a:visited{
+	color:lightsalmon;
+}
+#myTableContent a:link{
+	color:grey
+}
 .clearit{clear:both;}
-/*
-#page{width:950px; margin:0}
-*/
-/* 二级导航 */
-#level2header {border-top:1px solid #000;border-bottom:1px solid #000;width:950px;height:34px;font-size:12px; background:#fff;}
-#level2header img{border:none;}
-#level2header #logo {float:left;text-align:left; padding-top:3px;}
-#level2header #l2navlnk {float:right;text-align:center;line-height:34px;}
-#level2header #l2navlnk a:link,#level2header #l2navlnk a:visited {color:#000;text-decoration:none;}
-#level2header #l2navlnk a:hover,#level2header #l2navlnk a:active {color:#f00;text-decoration:underline;}
-#level2header #iask {float:right;width:307px;height:34px;background-color:#FFF;text-align:left;padding-left:6px; color:#000;}
-#level2header #iask a:link,#level2header #iask a:visited {color:#f00;text-decoration:none;}
-#level2header #iask a:hover,#level2header #iask a:active {color:#f00;text-decoration:underline;}
-#level2header #iask #k {width:65px;border:1px solid #7F9DB9;margin:0 0 0 7px;}
-#level2header #iask .sebtn{width:45px; height:18px;}
-#level2header .iaskRedTxt{color:#aaa; border:1px #f00 solid;}
-#level2headerborder{background:#fff; height:5px; overflow:hidden; clear:both; width:950px;}
 
-/* banner */
-#banner{width:950px; height:90px;  background:url(http://i3.sinaimg.cn/cj/pic/week.jpg) no-repeat; margin:2px 0 0 0; position:relative;}
-#wrhg{width:140px; position:absolute; top:52px; right:5px;}
-#date{position:absolute; top:51px; left:249px; font-weight:bold; color:#fff;}
+.list{
+margin: 0px 9px 18px;
+text-align: left;
+}
+.list ul{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+.list li a{
+padding: 5px 0px 3px 13px;
+}
 
 
-
-
-/* 快速导航 */
-#quickNav{ height:34px; line-height:34px; overflow:hidden; background:url(http://www.sinaimg.cn/dy/20091231/topbg.jpg) repeat-x; color:#999;border:1px solid #cecece;}
-#quickNav a,#quickNav a:visited{color:#000; text-decoration:none;}
-#quickNav a:hover,#quickNav a:active{color:#c00; text-decoration:underline;}
-#qN1{float:left; padding:0 0 0 20px;}
-#qN2{float:right; padding:0 8px 0 0;}
-
-/* 排行表格 */
-.loopblk{margin-top:10px;background:url(http://www.sinaimg.cn/dy/20091231/nt_cl_03.png) no-repeat 0 100%;padding-bottom:6px; }
-.lbti{height:40px; overflow:hidden; background:url(http://www.sinaimg.cn/dy/20091231/nt_cl_01.png);}
-.lbti h2{float:left; width:88px; overflow:hidden; line-height:40px; font-size:14px; color:#900; padding:0 0 0 15px;font-weight:normal;}
-.Tabs{float:left;}
-
-.Tabs li{float:left; text-align:center; font-size:12px; color:#900; cursor:pointer; background:url(http://www.sinaimg.cn/dy/deco/2012/0712/nt_cl_04.png) no-repeat; line-height:34px;width:85px;height:34px; margin:6px 0 0 5px; color:#000;}
-.Tabs li.on{background:url(http://www.sinaimg.cn/dy/deco/2012/0712/nt_cl_04.png) 0 -100px no-repeat;color:#7c0a0a;}
-
-/*
-.Tabs li{float:left; text-align:center; font-size:12px;cursor:pointer; background:url(http://i0.sinaimg.cn/dy/20091231/nt_cl_04.png) 0 -100px no-repeat; line-height:34px;width:85px;height:34px; margin:6px 0 0 5px; color:#7c0a0a;}
-.Tabs li.on{background:url(http://i0.sinaimg.cn/dy/20091231/nt_cl_04.png) 0 0 no-repeat;color:#fff;}
-*/
-.Cons{background:url(http://www.sinaimg.cn/dy/20091231/nt_cl_02.png) repeat-y;padding:10px 8px 1px 25px }
-.Cons table{width:918px; border-bottom:1px #efefef solid; border-left:1px #efefef solid;margin:0 auto;}
-.Cons th{text-align:center; line-height:26px; padding-top:2px; color:#494949; background:#fff; font-weight:normal;border:1px solid #efefef;border-width:1px 1px 0 0;}
-.Cons td{text-align:center; line-height:21px; padding:2px 0 0 0; border-right:1px #efefef solid; border-top:1px #efefef solid; color:#333;}
-.Cons td.ConsTi{text-align:left; padding:2px 0 0 6px;font-size:14px;line-height:28px; }
-.caplink{float:right; padding:0 10px 0 0; color:#900; line-height:40px;}
-.caplink a,.caplink a:visited{color:#900; text-decoration:none;}
-.caplink a:hover,.caplink a:active{color:#f00; text-decoration:underline;}
-
-#shm{border:1px #d3d3d3 solid; line-height:27px; padding-top:2px; padding-left:48px;text-align:left; margin:10px 0 0 0;}
-
-.videoNewsLeft {background: url("http://i1.sinaimg.cn/dy/deco/2012/0619/videoicon.png") no-repeat scroll 0 50% transparent;padding-left: 19px;}
-
-/* 翻页*/
-/*
-BODY { 
-FONT-SIZE: 12px;FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
-WIDTH: 60%; PADDING-LEFT: 25px; 
-} 
-*/
-/* CSS 翻页代码 */ 
-DIV.tres { 
-PADDING-RIGHT: 7px; PADDING-LEFT: 700px; FONT-WEIGHT: bold; 
-FONT-SIZE: 6pt; PADDING-BOTTOM: 1px; MARGIN: 3px; 
-PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center 
-} 
-DIV.tres A { 
-BORDER-RIGHT: #d9d300 2px solid; PADDING-RIGHT: 5px;
- BORDER-TOP: #d9d300 2px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; 
-MARGIN: 2px; BORDER-LEFT: #d9d300 2px solid; COLOR: #000000; PADDING-TOP: 2px;
- BORDER-BOTTOM: #d9d300 2px solid; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none 
-} 
-DIV.tres A:hover { 
-BORDER-RIGHT: #ff0 2px solid; BORDER-TOP: #ff0 2px solid; 
-BORDER-LEFT: #ff0 2px solid; COLOR: #000; BORDER-BOTTOM: #ff0 2px solid;
- BACKGROUND-COLOR: #ff0 
-} 
-DIV.tres A:active { 
-BORDER-RIGHT: #ff0 2px solid; BORDER-TOP: #ff0 2px solid; 
-BORDER-LEFT: #ff0 2px solid; COLOR: #000; 
-BORDER-BOTTOM: #ff0 2px solid; BACKGROUND-COLOR: #ff0 
-} 
-DIV.tres SPAN.current { 
-BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 5px; 
-BORDER-TOP: #fff 2px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold;
- PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #fff 2px solid;
- COLOR: #000; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 2px solid 
-} 
-DIV.tres SPAN.disabled { 
-DISPLAY: none 
-} 
-
+.list li span{
+float: right;
+text-align: right;/*日期右对齐*/
+}
