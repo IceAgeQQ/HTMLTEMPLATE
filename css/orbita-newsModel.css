@@ -110,4 +110,8 @@ p {
     clear: both;
     visibility: hidden;
 }
+img {
+	padding-bottom: 50px;
+	text-align: center;
+}
 
