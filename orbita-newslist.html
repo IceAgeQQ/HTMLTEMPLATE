@@ -106,48 +106,7 @@
 			</div>
 		</div>
 	</header>
-	
-		<script>
-			 window.onload=function()  
-		        {
-		        	var oList=document.getElementById('tabUl');
-					var aList=oList.getElementsByTagName('li');
-					var listContentDiv=document.getElementById('listContent');
-					var lcDiv=listContentDiv.getElementsByTagName('div');
-						$.getUrlParam = function(name) {
-					　　　　var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");//正则表达
-					　　　　var r = window.location.search.substr(1).match(reg);
-					　　　　if(r != null) return unescape(r[2]);
-					　　　　return null;
-					　　}
-					　　var url_status = $.getUrlParam('tab');
-					　　if(url_status == 1) {
-						
-							aList[0].className='active';
-					　　　　aList[1].className='';
-						    aList[2].className='';
-						    lcDiv[0].className='active tab-content list';
-						    lcDiv[1].hide();
-						    lcDiv[2].hidden;
-						   
-						    
-						}else if(url_status == 2){
-							aList[0].className='';
-					　　　　aList[1].className='active';
-						    aList[2].className='';
-						    lcDiv[0].hidden;
-						    lcDiv[1].className='active tab-content list';
-						    lcDiv[2].hidden;
-						   
-						    
-						}else{
-							aList[0].className='';
-					　　　　aList[1].className='';
-						    aList[2].className='active';
-						}
-			}
-		</script>
-	
+
 	<div id="gtco-features">
 		<div class="gtco-container">
 			<div class="row">
@@ -156,11 +115,11 @@
 					        <div class="table clearit" id="myTableContent">
 					            <!--nav-pills，nav-tabs，nav-stacked :改变选项卡的样式-->
 					            <ul class="nav nav-tabs" id="tabUl">
-					                <li class="active" id="Tab1"><a href="#tab1" data-toggle="tab">国内新闻</a>
+					                <li class="active" id="Tab1"><a href="#tab1" data-toggle="tab" type="tab1">国内新闻</a>
 					                </li>
-					                <li id="Tab2"><a href="#tab2" data-toggle="tab">国际新闻</a>
+					                <li id="Tab2"><a href="#tab2" data-toggle="tab" type="tab2">国际新闻</a>
 					                </li>
-					                <li id="Tab3"><a href="#tab3" data-toggle="tab">公司动态</a>
+					                <li id="Tab3"><a href="#tab3" data-toggle="tab" type="tab3">公司动态</a>
 					                </li>
 					            </ul>
 					            <!-- 选项卡相对应的内容 -->
