@@ -64,7 +64,10 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
-
+a:visited {
+	color:#0063DC;
+	text-decoration: none;
+}
 p {
   margin-bottom: 20px;
 }
@@ -1743,6 +1746,19 @@ form label {
 @media screen and (max-width: 768px) {
   #gtco-portfolio-list li a .case-studies-summary h2 {
     font-size: 20px;
+  }
+}
+#gtco-portfolio-list li.three-fourth {
+  width: 82%;
+}
+@media screen and (max-width: 768px) {
+  #gtco-portfolio-list li.three-fourth {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #gtco-portfolio-list li.three-fourth {
+    width: 100%;
   }
 }
 #gtco-portfolio-list li.two-third {
