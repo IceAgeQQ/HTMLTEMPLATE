@@ -48,7 +48,6 @@
 	</head>
 	
 	<body>
-		
 	<div class="gtco-loader"></div>
 	
 	<div id="page"> 
@@ -105,8 +104,8 @@
                     <div class="col-md-12">
                         <div id="featured-slider" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#featured-slider" data-slide-to="0" class="active"><img src='images/slider-1-t.jpg' alt='' class='featured-slide-thumb'  /></li>
+                            <ol class="carousel-indicators" style="z-index: 1;">
+                            	<li data-target="#featured-slider" data-slide-to="0" class="active"><img src='images/slider-1-t.jpg' alt='' class='featured-slide-thumb'/></li>                         		
                                 <li data-target="#featured-slider" data-slide-to="1" ><img src='images/slider-2-t.jpg' alt='' class='featured-slide-thumb'  /></li>
                                 <li data-target="#featured-slider" data-slide-to="2" ><img src='images/slider-3-t.jpg' alt='' class='featured-slide-thumb'  /></li>
                             </ol>
@@ -114,9 +113,10 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active" id="slide-2">
-                                    <img src='images/slider-1.jpg' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
-                                    <img src='images/slider-2.jpg' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
-                                    <div class="carousel-caption">
+                                	<a href="orbita-newsModel.html">
+                                		<img src='images/slider-1.jpg' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    	<img src='images/slider-2.jpg' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                		<div class="carousel-caption">
                                         <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">欧比特大数据</a></span>
                                         <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">今天的数据明天的房价</h2>
                                         <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
@@ -130,16 +130,15 @@
 
                                             </ul>
                                         </div>
-                                       <!-- <div class="meta">
-                                            <button class="btn btn-primary inv slide-btn btn-lg" data-animation="animated fadeInUp" data-delay="3s" data-duration="2s"><a href="index.html">Full Story</a> <i class="tn-arrow-right"></i></button>
-                                        </div>-->
-
                                     </div>
+                                	</a>
+                                    
+                                    
                                 </div>
                                 <div class="item" id="slide-3">
                                     <img src='images/slider-2.jpg' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
                                     <img src='images/slider-3.jpg' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
-                                    <div class="carousel-caption">
+                                   <div class="carousel-caption">
                                         <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">欧比特大数据</a></span>
                                         <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">今天的数据明天的房价</h2>
                                         <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
@@ -196,9 +195,9 @@
 						<span class="icon">
 							<i class="ti-search"></i>
 						</span>
-						<h3>我们的卫星</h3>
+						<h3>关注新闻</h3>
 						<p>超越客户的要求，提供更高的服务，一切从优，不是最好的我们不做 </p>
-						<p><a href="#womendetese" class="btn btn-white btn-outline">了解更多</a></p>
+						<p><a href="orbita-news.html" class="btn btn-white btn-outline">点击进入</a></p>
 					</div>
 				</div>
 				<div class="feature feature-2 animate-box" data-animate-effect="fadeInUp">
@@ -206,9 +205,9 @@
 						<span class="icon">
 							<i class="ti-announcement"></i>
 						</span>
-						<h3>头条新闻</h3>
+						<h3>我们的卫星</h3>
 						<p>在这里你能了解到国内新闻，国际新闻，以及欧比特公司最新动态 </p>
-						<p><a href="#gongzuodongtai" class="btn btn-white btn-outline">了解更多</a></p>
+						<p><a href="orbita-satellite.html" class="btn btn-white btn-outline">点击进入</a></p>
 					</div>
 				</div>
 				<div class="feature feature-3 animate-box" data-animate-effect="fadeInUp">
@@ -218,14 +217,15 @@
 						</span>
 						<h3>遥感数据</h3>
 						<p>在这里能看见欧比特相关数据产品 </p>
-						<p><a href="#gtco-products" class="btn btn-white btn-outline">了解更多</a></p>
+						<p><a href="orbita-remotesensingdata.html" class="btn btn-white btn-outline">点击进入</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!--body内容 内容2-->
-	<div id="gtco-features">
+	
+	
+	<!--<div id="gtco-features">
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box" id="womendetese">
@@ -273,7 +273,8 @@
 			</div>
 		</div>
 	</div>
-
+	
+	
 	<div id="gtco-portfolio" class="gtco-section">
 		<div class="gtco-container">
 			<div class="row">
@@ -342,8 +343,9 @@
 			</div>
 		</div>
 	</div>
-
-	<div id="gtco-products">
+	
+	
+	<div id="gtco-products" style="z-index: 1;">
 		<div class="gtco-container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
@@ -368,9 +370,14 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
     
-	<footer id="gtco-footer" role="contentinfo">
+    <div id="gtco-features">
+    	<div class="gtco-container">
+    		
+    	</div>
+    </div>
+	<footer id="gtco-footer" role="contentinfo" style="background-color: aliceblue;">
 		<div class="gtco-container">
 			<div class="row row-p	b-md">
 				<div class="col-md-4">
@@ -379,6 +386,20 @@
 						<p>海欧比特控制工程股份有限公司（股票代码:300053）是国内具有自主知识产权的高可靠高性能嵌入式SoC芯片、立体封装SiP模块、智能图像处理及人脸识别、微型航天器、微纳卫星及星座、卫星空间信息平台、卫星大数据服务平台及系统集成供应商。</p>
 					</div>
 				</div>
+				
+				<div class="col-md-4 col-md-push-1">
+					<div class="gtco-widget">
+						<h3>Links</h3>
+						<ul class="gtco-footer-links">
+							<li><a href="#">Knowledge Base</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Terms of services</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				
 				<div class="col-md-4">
 					<div class="gtco-widget">
 						<h3>联系方式</h3>
@@ -389,6 +410,7 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
