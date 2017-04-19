@@ -1,0 +1,32 @@
+		.post-title a{
+			color:#777;
+			display: inline-block;
+			vertical-align: middle;
+			width: 100%;
+			overflow: hidden;
+			white-space: nowrap;
+			/*text-overflow: ellipsis;*/
+		}
+		.post-title a:link{
+		color:grey
+		}
+		.post-title a:visited{
+			color:lightsalmon;
+		}
+		.post-title a:hover{
+			/*text-decoration: underline;color:lightseagreen;*/
+			color:lightsteelblue;
+		}
+		.post-title a:active{
+			text-decoration: underline;color:lightseagreen;
+		}
+		.clearit{clear:both;}
+		
+		.am-list>li {
+		    position: relative;
+		    display: block;
+		    margin-bottom: -1px;
+		    background-color: #fafcfc;
+		    border: 1px dashed lightsteelblue;
+		    border-width: 1px 0;
+		}
