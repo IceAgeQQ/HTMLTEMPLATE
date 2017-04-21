@@ -1,0 +1,20 @@
+
+	@charset "utf-8";
+/* CSS Document */
+
+#newsContent ul,li{list-style:none;}
+#newsContent del,ins,u,s,a,a:hover,a:active,a:link,a:visited{text-decoration:none !important;}
+#newsContent body,textarea,input,button,select,keygen,legend{font-size:12px; font-family:"微软雅黑";outline:0;}
+#newsContent .clearfix{clear:both; height:0;}
+#newsContent body{overflow-x:hidden}
+
+.indexnews{padding-top:40px;}
+.indexnews h4{font-size:16px; color:#0769a9;}
+.indexnews a:hover h4{ color:rgba(0,0,0,1.00);}
+.indexnews .dates{ background:#f1f1f1; height:70px; font-size:12px; margin-top:10px; color:#999; border-radius:5px; overflow:hidden; margin-right:15px; text-align:center; width:70px}
+.indexnews .dates .d{font-size:21px; line-height:30px; display:block; padding-top:10px;}
+.news_item_1, .news_item_3{padding-right:40px;}
+.news_item_2, .news_item_4{padding-left:40px;}
+.indexnews p{color:rgba(106,106,106,1.00); line-height:22px; font-size:14px; margin-bottom:30px;}
+.indexnews p span{font-size:12px; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;}
+

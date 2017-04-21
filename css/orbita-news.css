@@ -1,8 +1,8 @@
-		.post-title a{
+		.post-title li{
 			color:#777;
 			display: inline-block;
 			vertical-align: middle;
-			width: 100%;
+			width: 85%;
 			overflow: hidden;
 			white-space: nowrap;
 			/*text-overflow: ellipsis;*/
@@ -22,7 +22,15 @@
 		}
 		.clearit{clear:both;}
 		
-		.am-list>li {
+		.am-list>li{
+		    position: relative;
+		    display: block;
+		    margin-bottom: -1px;
+		    background-color: #fafcfc;
+		    border: 1px dashed lightsteelblue;
+		    border-width: 1px 0;
+		}
+		.am-list>span{
 		    position: relative;
 		    display: block;
 		    margin-bottom: -1px;

@@ -8,6 +8,7 @@
 /* =======================================================
 *
 * 	Template Style 
+* 
 *
 * ======================================================= */
 body {
@@ -744,7 +745,7 @@ form label {
   margin-left: -25px;
   height: 2px;
   left: 50%;
-  background: #17B794;
+
 }
 .gtco-heading p {
   font-size: 20px;
@@ -1682,7 +1683,7 @@ form label {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#gtco-portfolio-list li a.color-1:before {
+/*#gtco-portfolio-list li a.color-1:before {
   background: rgba(55, 75, 84, 0.7);
 }
 #gtco-portfolio-list li a.color-1:hover:before {
@@ -1717,7 +1718,7 @@ form label {
 }
 #gtco-portfolio-list li a.color-6:hover:before {
   background: rgba(98, 177, 215, 0);
-}
+}*/
 #gtco-portfolio-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
