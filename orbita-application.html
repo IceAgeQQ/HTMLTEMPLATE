@@ -36,10 +36,39 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<link rel="stylesheet" href="css/sjcss/sjdefault.css"/>
+	<link rel="stylesheet" href="css/sjcss/sjglobal.css"/>
+	<link rel="stylesheet" href="css/sjcss/sjstyle.css"/>
+	<link rel="stylesheet" href="css/sjcss/sjstyle2.css"/>
 	</head>
 	<body>
-		
+	<script>
+		window.onload = function() {
+			/*var oList=document.getElementById('gtco-portfolio');
+			var aList=oList.getElementsByTagName('div');
+			for(var i=0;i<aList.length;i++){
+				console.log("the class is: "+ aList[i].id);
+			}*/
+			$('#application').show();
+			$('#application2').hide();
+			$('#application3').hide();
+		}
+		function lvhideContent(){
+			$('#application').show();
+			$('#application2').hide();
+			$('#application3').hide();
+		}
+		function softhideContent(){
+			$('#application2').show();
+			$('#application').hide();
+			$('#application3').hide();
+		}
+		function otherhideContent(){
+			$('#application3').show();
+			$('#application2').hide();
+			$('#application').hide();
+		}
+	</script>	
 	<div class="gtco-loader"></div>
 	
 	<div id="page">
@@ -84,7 +113,7 @@
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/headerPic.png);z-index: 0;">
+	<header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/卫星页面BANNER页.png);z-index: 0;">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -100,12 +129,12 @@
 		</div>
 	</header>
 	
-	<div class="gtco-section border-bottom">
+	<!--<div class="gtco-section border-bottom">
 		<div class="gtco-container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>我们的应用</h2>
-					<p>做一下比较小的说明在这里即可</p>
+					<h2>欧比特应用</h2>
+					<p>欧比特“珠海一号”卫星大数据包括遥感影像数据、视频数据、高光谱数据、SAR数据，以及一系列遥感增值数据产品。卫星大数据助力于国土普查、作物估产、森林调查、地质找矿、海洋预告、环境保护、灾害监测、城市规划和地图测绘等遥感业务。</p>
 				</div>
 			</div>
 			<div class="row">
@@ -115,7 +144,7 @@
 							<i class="ti-settings"></i>
 						</span>
 						<div class="feature-copy">
-							<a href="#gtco-portfolio"><h3>数据应用</h3></a>
+							<a href="#application" onclick="lvhideContent()"><h3>绿色家园</h3></a>
 							<p>做一下比较小的说明在这里即可</p>
 						</div>
 					</div>
@@ -126,7 +155,7 @@
 							<i class="ti-ruler-pencil"></i>
 						</span>
 						<div class="feature-copy">
-							<a href="#gtco-portfolio"><h3>软件应用</h3></a>
+							<a href="#application2" onclick="softhideContent()"><h3>软件应用</h3></a>
 							<p>做一下比较小的说明在这里即可</p>
 						</div>
 					</div>
@@ -137,7 +166,7 @@
 							<i class="ti-face-smile"></i>
 						</span>
 						<div class="feature-copy">
-							<a href="#gtco-portfolio"><h3>其他</h3></a>
+							<a href="#application3" onclick="otherhideContent()"><h3>其他</h3></a>
 							<p>做一下比较小的说明在这里即可</p>
 						</div>
 					</div>
@@ -145,48 +174,72 @@
 			</div>
 
 		</div>
-	</div>
+	</div>-->
 	
-	<div id="gtco-portfolio" class="gtco-section gallery cf">
+	<div id="gtco-portfolio" class="gtco-section gallery cf" style="background-color: #FFFFFF;">
 		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box" id="gongzuodongtai">
-					<h2>数据应用</h2>
-					<p>暂时用图片代替</p>
+			<div id="main">
+				<div class="topNav"> 
+					<div class="pos">行业应用<strong>Orbita Applications</strong>	
+					</div> 
+	    			<div class="Ernavs"> 
+	    				<span>
+	    					<a href="#" class="hover">DigitalGlobe星座</a>
+	    				</span> 
+	    				<span>
+	    					<a href="#">KOMPSAT星座</a>
+	    				</span>  
+	    				<span>
+	    					<a href="#">Deimos-2</a>
+	    				</span>  
+	    				
+	    			</div>
+	  			</div>
+	  			<div class="Data">
+				    <ul>
+						<li>
+				        	<dl>
+				            	<dt>
+				            		<a href="/case/Cartographic/2016/0321/193.html">
+				            			<img src="images/img_4.jpg" width="139" height="90">
+				            		</a>
+				            	</dt>
+				                <dd>
+				                	<h2>
+				                		<a href="orbita-newsModel.html">高科技的里约奥运会安全监测 -- 卫星遥感安监应...</a>
+				                	</h2>
+				                    <p>四年一届的奥林匹克运动会将于今年夏天在巴西首都里约热内卢举办。作为东道主的里约市政府，为了确保运动员、观众和来...</p>
+				            	</dd>
+				        	</dl>
+				      	</li>
+				    </ul>
+				
+				    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="page">
+				      <tbody>
+				      	<tr>
+					        <td valign="top" align="right">
+					        	<a>&lt;</a>
+					        	<a class="cur">1</a>
+					        	<a>&gt;</a>
+							</td>
+				      	</tr>
+				      </tbody>
+				    </table>
 				</div>
 			</div>
-
-			<div class="row row-pb-md">
+		</div>
+			<!--<div class="row row-pb-md" id="application">
 				<div class="col-md-12">
-					<ul id="gtco-portfolio-list">
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg);"> 
-							<a class="color-1" >
+					<ul id="gtco-portfolio-list" style="top: 20px;">
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); width: 100%;"> 
+							<a class="color-5">
 								<div class="case-studies-summary">
-									<span>珠海一号</span>
-									<span>时间：2017/03/03</span>
-								</div>
-								
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn">
-							<a class="color-2">
-								<div class="case-studies-summary" style="word-wrap: break-word;overflow: hidden;">
-									<span>珠海一号</span>
-									<span>时间：2017/03/03</span>
+									<span>绿色家园</span>
 								</div>
 							</a>
 						</li>
-
-
-						<li class="one-half animate-box" data-animate-effect="fadeIn">
-							<a class="color-3">
-								<div class="case-studies-summary" style="word-wrap: break-word;overflow: hidden;">
-									<span>珠海二号</span>
-									<span>时间：2017/03/03</span>
-								</div>
-							</a>
-						</li>
-						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg);">
+						
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/绿色家园.png);width: 100%;height: 1810px;">
 							<a class="color-4">
 								<div class="case-studies-summary">
 									<span>珠海二号</span>
@@ -195,50 +248,140 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); "> 
-							<a class="color-5">
-								<div class="case-studies-summary">
-									<span>珠海三号</span>
-									<span>时间：2017/03/03</span>
-								</div>
-							</a>
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/绿色家园2.png); width: 100%;height: 1200px;"> 
+							
 						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn">
-							<a class="color-6">
-								<div class="case-studies-summary">
-									<span>珠海三号</span>
-									<span>2017/03/03</span>
+						
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); width: 100%;"> 
+							<a class="color-4">
+								<div class="case-studies-summary" >
+									<span style="float: right;">你的选择</span>
 								</div>
 							</a>
 						</li>
 					</ul>		
 				</div>
 			</div>
+			
+			<div class="row row-pb-md" id="application2">
+				<div class="col-md-12">
+					<ul id="gtco-portfolio-list">
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); width: 100%;"> 
+							<a class="color-5">
+								<div class="case-studies-summary">
+									<span>绿色家园</span>
+								</div>
+							</a>
+						</li>
+						
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/绿色家园.png);width: 100%;height: 1810px;">
+							<a class="color-4">
+								<div class="case-studies-summary">
+									<span>珠海二号</span>
+									<span>时间：2017/03/03</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/绿色家园2.png); width: 100%;height: 1200px;"> 
+							
+						</li>
+						
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); width: 100%;"> 
+							<a class="color-4">
+								<div class="case-studies-summary" >
+									<span style="float: right;">你的选择</span>
+								</div>
+							</a>
+						</li>
+					</ul>		
+				</div>
+			</div>
+			
+			<div class="row row-pb-md" id="application3">
+				<div class="col-md-12">
+					<ul id="gtco-portfolio-list">
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); width: 100%;"> 
+							<a class="color-5">
+								<div class="case-studies-summary">
+									<span>绿色家园</span>
+								</div>
+							</a>
+						</li>
+						
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/绿色家园.png);width: 100%;height: 1810px;">
+							<a class="color-4">
+								<div class="case-studies-summary">
+									<span>珠海二号</span>
+									<span>时间：2017/03/03</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/绿色家园2.png); width: 100%;height: 1200px;"> 
+							
+						</li>
+						
+						<li class="animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); width: 100%;"> 
+							<a class="color-4">
+								<div class="case-studies-summary" >
+									<span style="float: right;">你的选择</span>
+								</div>
+							</a>
+						</li>
+					</ul>		
+				</div>
+			</div>-->
 
 		</div>
 	</div>
 
 	
 
-	<footer id="gtco-footer" role="contentinfo">
-		<div class="gtco-container">
-			<div class="row row-pb-md">
-
+	<footer id="gtco-footer" role="contentinfo" style="background-image: url(images/footerbackgroundimage.png);">
+		<div class="gtco-container" >
+			<div class="row row-p	b-md">
 				<div class="col-md-4">
 					<div class="gtco-widget">
-						<h3>关于我们的产品</h3>
-						<p>OBT-SPW-T是欧比特公司自主研制的遵循ECSS-E-ST-50-12C协议规范的航天设备间的高速数据总线的节点IP核。OBT-SPW-T可以嵌入在航天子系统中，将航天子系统中与SPW网络连接，保证航天子系统之间高速、实时、确定、可靠地进行数据交换</p>
+						<h3>我们的志愿</h3>
+						<p>努力把欧比特打造成管理机制完善、综合实力突出、竞争优势明显、国际认知度高的、国内一流的、富有诚信的卫星大数据服务平台运营商和商用宇航公司。</p>
 					</div>
 				</div>
-
+				
+				<div class="col-md-4 col-md-push-1">
+					<div class="gtco-widget">
+						<h3>友情链接</h3>
+						<ul class="gtco-footer-links">
+							<li><a href="http://www.myowatch.com:5016/">爱随芯动</a></li>
+							<li><a href="http://www.csia.net.cn/">中国半导体行业协会</a></li>
+							<li><a href="http://www.picmg.com.cn/">中国计算机行业协会</a></li>
+							<li><a href="http://www.sica.org.cn/">上海市集成电路行业协会</a></li>
+							<li><a href="http://www.csrc.gov.cn/pub/newsite/">证券监督管理委员会</a></li>
+							<li><a href="http://www.szse.cn/">深圳证券交易所</a></li>
+							<li><a href="http://www.cs.com.cn/">中证网</a></li>
+							<li><a href="http://www.cninfo.com.cn/cninfo-new/index">巨潮资讯</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>联系方式</h3>
+						<ul class="gtco-quick-contact" style="color: #FFFFFF;">
+							<li><i class="icon-phone"></i> 0756-3391979</li>
+							<li><i class="icon-mail2"></i> liguang@myorbita.net</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
+						<small class="block">&copy; 2017 Orbita All Rights Reserved.</small> 
 					</p>
 				</div>
 			</div>
-
 		</div>
 	</footer>
 	</div>
@@ -264,7 +407,12 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<!-- sjjs-->
+	<script src="js/sjjs/jquery-ui-1.8.2.custom.min.js"></script>
+	<script src="js/sjjs/jQuery.textSlider.js"></script>
+	<script src="js/sjjs/pirobox_extended.js"></script>
+	<script src="js/sjjs/sjindex.js"></script>
+	<script src="js/sjjs/sjlrtk.js"></script>
 	</body>
 </html>
 

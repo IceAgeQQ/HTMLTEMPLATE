@@ -3469,7 +3469,9 @@ tbody.collapse.in {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
+	 background-color: #F4F0EE;
+	border-bottom: 1px solid #ddd;				
 }
 .nav-tabs > li {
   float: left;

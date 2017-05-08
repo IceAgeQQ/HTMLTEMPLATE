@@ -66,7 +66,7 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 a:visited {
-	color:#0063DC;
+	color:#DFFA00;
 	text-decoration: none;
 }
 p {
@@ -620,7 +620,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-  padding: 7em 0;
+  padding: 4.5em 0;
   clear: both;
   position: relative;
 }
@@ -1614,6 +1614,189 @@ form label {
   float: left;
 }
 
+#orbitadata {
+  padding: 7em 0;
+  background: #303841;
+  min-height: 500px;
+}
+@media screen and (max-width: 768px) {
+  #orbitadata {
+    padding: 3em 0;
+  }
+}
+#orbitadata .gtco-heading h2 {
+  color: #fff;
+}
+#orbitadata .gtco-heading p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#orbitadata-list {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#orbitadata-list li {
+  display: block;
+  padding: 0;
+  margin: 0 0 10px 1%;
+  list-style: none;
+  min-height: 400px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  clear: left;
+  position: relative;
+}
+@media screen and (max-width: 480px) {
+  #orbitadata-list li {
+    margin-left: 0;
+  }
+}
+#orbitadata-list li a {
+  min-height: 400px;
+  padding: 2em;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+#orbitadata-list li a:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  z-index: 80;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+/*#orbitadata-list li a.color-1:before {
+  background: rgba(55, 75, 84, 0.7);
+}
+#orbitadata-list li a.color-1:hover:before {
+  background: rgba(55, 75, 84, 0);
+}
+#orbitadata-list li a.color-2:before {
+  background: rgba(37, 190, 213, 0.7);
+}
+#orbitadata-list li a.color-2:hover:before {
+  background: rgba(37, 190, 213, 0);
+}
+#orbitadata-list li a.color-3:before {
+  background: rgba(239, 172, 147, 0.7);
+}
+#orbitadata-list li a.color-3:hover:before {
+  background: rgba(239, 172, 147, 0);
+}
+#orbitadata-list li a.color-4:before {
+  background: rgba(249, 17, 40, 0.7);
+}
+#orbitadata-list li a.color-4:hover:before {
+  background: rgba(249, 17, 40, 0);
+}
+#orbitadata-list li a.color-5:before {
+  background: rgba(252, 68, 40, 0.7);
+}
+#orbitadata-list li a.color-5:hover:before {
+  background: rgba(252, 68, 40, 0);
+}
+#orbitadata-list li a.color-6:before {
+  background: rgba(98, 177, 215, 0.7);
+}
+#orbitadata-list li a.color-6:hover:before {
+  background: rgba(98, 177, 215, 0);
+}*/
+#orbitadata-list li a .case-studies-summary {
+  width: auto;
+  bottom: 2em;
+  left: 2em;
+  right: 2em;
+  position: absolute;
+  z-index: 100;
+}
+@media screen and (max-width: 768px) {
+  #orbitadata-list li a .case-studies-summary {
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+  }
+}
+#orbitadata-list li a .case-studies-summary span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+#orbitadata-list li a .case-studies-summary h2 {
+  color: #fff;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  #orbitadata-list li a .case-studies-summary h2 {
+    font-size: 20px;
+  }
+}
+#orbitadata-list li.three-fourth {
+  width: 82%;
+}
+@media screen and (max-width: 768px) {
+  #orbitadata-list li.three-fourth {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #orbitadata-list li.three-fourth {
+    width: 100%;
+  }
+}
+#orbitadata-list li.two-third {
+  width: 65.6%;
+}
+@media screen and (max-width: 768px) {
+  #orbitadata-list li.two-third {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #orbitadata-list li.two-third {
+    width: 100%;
+  }
+}
+#orbitadata-list li.one-third {
+  width: 32.3%;
+}
+@media screen and (max-width: 768px) {
+  #orbitadata-list li.one-third {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #orbitadata-list li.one-third {
+    width: 100%;
+  }
+}
+#orbitadata-list li.one-half {
+  width: 49%;
+}
+@media screen and (max-width: 480px) {
+  #orbitadata-list li.one-half {
+    width: 100%;
+  }
+}
+
 #gtco-portfolio {
   padding: 7em 0;
   background: #303841;
@@ -1796,7 +1979,6 @@ form label {
     width: 100%;
   }
 }
-
 /* Owl Override Style */
 .owl-carousel .owl-controls,
 .owl-carousel-posts .owl-controls {
@@ -2001,12 +2183,13 @@ button.navbar-toggle{
     top: 140px;
 }
 #featured-slider .featured-slide{
-    transform: perspective(600px) rotateY(45deg);
-    -webkit-transform: perspective(600px) rotateY(45deg);
+    /*transform: perspective(600px) rotateY(45deg);
+    -webkit-transform: perspective(600px) rotateY(45deg);*/
     border-radius: 20px;
     box-shadow: -4px 2px 12px rgba(0, 0, 0, 0.3);
     margin-left: 10px;
     opacity: 1;
+    
 }
 
 #featured-slider .carousel-caption *{
@@ -2363,7 +2546,7 @@ p.pac-info{
 
 .fixed_header { 
 	position:fixed; 
-	z-index:1; 
+	z-index:2; 
 	top:0; 
 	width:100%; 
 	background-color:#000000;
